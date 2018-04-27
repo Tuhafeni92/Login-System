@@ -42,9 +42,6 @@ public class ForgotActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
 
                 /****** Change user password to new password *******/
-             
-intent.putExtra("username", name);
-intent.putExtra("password", new_password);
 
                 startActivity(intent);
             }
